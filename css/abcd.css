@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'OpticianSans';
+    src: url('Optiker-K.woff2') format('woff2'), /* Modern Browsers */
+         url('Optiker-K.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'OpticianSans', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+section {
+  width: 175px;
+  height: 220px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  height: 500px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
