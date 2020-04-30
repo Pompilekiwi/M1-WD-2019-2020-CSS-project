@@ -34,3 +34,27 @@ section {
   justify-content: space-around;
   align-content: space-between;
 }
+
+
+#containergrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+#containergrid:target {
+  background: yellow;
+  display: grid;
+}
+
+.box {
+  width: 175px;
+  height: 220px;
+  border: 2px solid green;
+  padding: 10%;
+}
+
+.box p {
+  font-weight: 600;
+  font-size: 3rem;
+}
