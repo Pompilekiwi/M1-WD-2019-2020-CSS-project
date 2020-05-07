@@ -45,16 +45,17 @@ section {
 #containergrid:target {
   background: yellow;
   display: grid;
+  justify-content: space-between;
 }
 
 .box {
   width: 175px;
-  height: 220px;
+  height: 175px;
   border: 2px solid green;
   padding: 10%;
 }
 
-.box p {
+.containergrid h1 {
   font-weight: 600;
   font-size: 3rem;
 }
